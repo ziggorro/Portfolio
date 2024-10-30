@@ -246,6 +246,17 @@ body {
 	}
 }
 
+// < 560px
+@media (width < 35rem) {
+	html {
+		font-size: 40%;
+	}
+
+	.container {
+		padding: 0 3.2rem;
+	}
+}
+
 // Section ABOUT
 .section-about {
 	padding: 8rem 0;
@@ -269,7 +280,7 @@ body {
 // Section SKILLS
 .section-skills {
 	padding: 8rem 0;
-	border: 1px rgba(255, 0, 0, 0.187) solid;
+	// border: 1px rgba(255, 0, 0, 0.187) solid;
 }
 
 .skills-box {
