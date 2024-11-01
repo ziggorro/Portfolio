@@ -2,7 +2,7 @@
 	"name": "personal-portfolio-website",
 	"version": "1.0.0",
 	"description": "My personal portfolio website",
-	"default": "index.html",
+	"source": "index.html",
 	"scripts": {
 		"compile:sass": "sass sass/main.scss css/style.css -w",
 		"start": "parcel --open firefox",
